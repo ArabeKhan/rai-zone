@@ -1,0 +1,28 @@
+.checkoutProduct {
+  display: flex;
+  margin: 20px 0;
+}
+
+.checkoutProduct_info {
+  padding-left: 20px;
+}
+
+.checkoutProduct_info > button {
+  background: blueviolet;
+  border: none;
+  border-radius: 5px;
+  margin-top: 10px;
+  padding: 8px 15px;
+  color: aliceblue;
+}
+
+.checkoutProduct_image {
+  object-fit: contain;
+  width: 180px;
+  height: 180px;
+}
+
+.checkoutProduct_title {
+  font-size: 17px;
+  font-weight: 700;
+}
